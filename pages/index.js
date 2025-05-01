@@ -1,7 +1,9 @@
 import PostCard from '@/components/PostCard';
 
 export async function getStaticProps() {
-  const res = await fetch('http://127.0.0.1:1337/api/posts?populate=*');
+  const res = await fetch(
+    'https://assessment-in5i.onrender.com/api/posts?populate=*'
+  );
   const data = await res.json();
 
   return {
