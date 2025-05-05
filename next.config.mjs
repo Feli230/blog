@@ -2,7 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['assessment-in5i.onrender.com'],
+    domains: ['res.cloudinary.com'],
+    // remotePatterns: [
+    //   {
+    //     protocol: 'https',
+    //     hostname: 'res.cloudinary.com',
+    //     // port: '1337',
+    //   },
+    // ],
   },
 };
 
